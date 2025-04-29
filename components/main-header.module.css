@@ -1,0 +1,13 @@
+.home {
+    display: flex;
+    font-size: 3rem;
+
+    text-align: center;
+    margin-top: 15rem;
+
+
+}
+
+.item {
+    color: white;
+}

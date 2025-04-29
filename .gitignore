@@ -1,0 +1,8 @@
+node_modules/
+.next/
+.env.local
+.env.development
+.env.production
+.env.test
+.DS_Store
+*.log
