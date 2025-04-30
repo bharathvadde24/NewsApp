@@ -1,11 +1,11 @@
-"use client";
+// "use client";
 
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+// import { usePathname } from 'next/navigation';
 import NavLink from './nav-link';
 
 export default function MainHeader() {
-    const path = usePathname();
+    // const path = usePathname();
 
     return (
         <header id="main-header">
@@ -20,9 +20,6 @@ export default function MainHeader() {
                     <li>
                         <NavLink href="/archive">Archive</NavLink>
                     </li>
-                    {/* <li>
-                        <Link href="/archive" className={path.startsWith('/archive') ? 'active' : undefined}>Archive</Link>
-                    </li> */}
                 </ul>
             </nav>
         </header>
